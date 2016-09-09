@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+}
+
+li a {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-style:none;
+}
+
+li a:hover {
+    background-color:black;
+}
+#right{
+	float:right;
+}
+#one{
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    text-align: justify;
+	margin:135px 20px 100px 512px;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+li a:hover:not(.active){
+	background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a title="This is my main page." href="home.html">Home</a></li>
+  <li><a title="What is happening around you." href="news.html">News</a></li>
+  <li><a class="active" href="contact.html" style="pointer-events:none;">Contact</a></li>
+  <li title="This tells you what my site is about." id="right"><a href="about.html">About</a></li>
+</ul>
+<br>
+<br>
+<div id="one" style="display=inline;text-align:center;">
+<p style="display:inline;text-align:center;">This tells you how to contact/find me.
+There are many diffrent ways.
+Here is a list.</p>
+<ol>
+<li>Phone</li>
+<li>Text</li>
+<li>Email</li>
+<li>Mail</li>
+<li>Adress</li>
+</ol>
+</div>
+</body>
+</html>
+
