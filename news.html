@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-style:none;
+}
+
+li a:hover {
+    background-color:black;
+}
+#right{
+	float:right;
+}
+#news {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+}
+.active{
+background-color:#4CAF50;
+color:white;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a title="This is my main page." href="home.html">Home</a></li>
+  <li><a class="active" href="news.html" style="pointer-events:none;">News</a></li>
+  <li><a Title="How to find me." href="contact.html">Contact</a></li>
+  <li title="This tells you what my site is about." id="right"><a href="about.html">About</a></li>
+</ul>
+<h2 style="text-align:center;text-decoration:underline;">This Is The News</h2>
+<br>
+<br>
+<div id="news">
+<h3 style="text-style: Charcoal;"> This is the news articles title </h3>
+<p style="text-indent:10%;text-align:justify;">This is a paragraph in the news article.</p>
+</div>
+
+</body>
+</html>
+
